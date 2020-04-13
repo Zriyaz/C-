@@ -12,9 +12,10 @@ int main()
       }
       for(auto i=v1.begin();i!=v1.end();i++)
       cout<< *i<<endl;
-      
+      /* Reverse the vector*/
+
       for(auto i=v1.rbegin();i!=v1.rend();i++)
       cout<<*i<<" ";
-
       cout<<v1.size();
+
 }
